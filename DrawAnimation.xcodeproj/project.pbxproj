@@ -14,6 +14,7 @@
 		667E147D1A2C6433009CEA85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667E147C1A2C6433009CEA85 /* Images.xcassets */; };
 		667E14801A2C6433009CEA85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 667E147E1A2C6433009CEA85 /* LaunchScreen.xib */; };
 		667E148C1A2C6433009CEA85 /* DrawAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 667E148B1A2C6433009CEA85 /* DrawAnimationTests.m */; };
+		667E14971A2C6452009CEA85 /* Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 667E14961A2C6452009CEA85 /* Animations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		667E14851A2C6433009CEA85 /* DrawAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		667E148A1A2C6433009CEA85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		667E148B1A2C6433009CEA85 /* DrawAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawAnimationTests.m; sourceTree = "<group>"; };
+		667E14951A2C6452009CEA85 /* Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animations.h; sourceTree = "<group>"; };
+		667E14961A2C6452009CEA85 /* Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		667E146E1A2C6433009CEA85 /* DrawAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				667E14951A2C6452009CEA85 /* Animations.h */,
+				667E14961A2C6452009CEA85 /* Animations.m */,
 				667E14731A2C6433009CEA85 /* AppDelegate.h */,
 				667E14741A2C6433009CEA85 /* AppDelegate.m */,
 				667E14761A2C6433009CEA85 /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				667E14781A2C6433009CEA85 /* ViewController.m in Sources */,
 				667E14751A2C6433009CEA85 /* AppDelegate.m in Sources */,
+				667E14971A2C6452009CEA85 /* Animations.m in Sources */,
 				667E14721A2C6433009CEA85 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
