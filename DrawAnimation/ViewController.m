@@ -23,6 +23,7 @@
     
     [ami initCirCleAnimationWithLayerWithView:self.animationView isRemovedOnCompletion:YES];
     
+    self.animationView.layer.cornerRadius=CGRectGetWidth(self.animationView.frame)/2.0;
     /**
      *  加一层 背景
      */
